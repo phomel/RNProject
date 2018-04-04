@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements DefaultHardwareBa
         mReactInstanceManager = ReactInstanceManager.builder()
                 .setApplication(getApplication())
                 .setBundleAssetName("index.android.bundle")
-                .setJSMainModulePath("index")
+                .setJSMainModulePath("./index")
                 .addPackage(new MainReactPackage())
                 .addPackage(new ToastExampleReactPackage())
                 .setUseDeveloperSupport(true)
