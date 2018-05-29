@@ -15,7 +15,9 @@ class HomePage extends Component {
     }
 
     componentDidMount() {
-        console.log('hahaha')
+        console.log('hahaha');
+        tiantsdhfkjashdfkahskfh;
+        djflkjsdljflakjf;
     }
 
     render() {
