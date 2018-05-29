@@ -14,17 +14,25 @@ class HomePage extends Component {
         super(props);
     }
 
+    componentDidMount() {
+        console.log('hahaha')
+    }
+
     render() {
         return (
             <View style={styles.container}>
                 <Text style={{padding: 10}}>Hello Navigation</Text>
+
                 <Button title='点击跳转'
                         onPress={() => this.props.navigation.navigate('Chat', {user: 'Sybil'})}/>
             </View>
         )
 
     }
+
 }
+const numbers = number => number * number;
+
 
 const styles = StyleSheet.create({
     container: {
